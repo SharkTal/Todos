@@ -1,3 +1,11 @@
+.todo {
+    padding: 1px;
+}
+
 .todo__list {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    background-color: rgb(123, 161, 149);
 }
